@@ -98,7 +98,7 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <img src="../expofer/img/paginaProductos/lupa.png" alt="buscar">
+                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
                                 <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
                                 <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
                             </div>
@@ -120,7 +120,7 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <img src="../expofer/img/paginaProductos/lupa.png" alt="buscar">
+                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
                                 <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
                                 <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
                             </div>
@@ -142,7 +142,7 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <img src="../expofer/img/paginaProductos/lupa.png" alt="buscar">
+                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
                                 <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
                                 <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
                             </div>
@@ -164,7 +164,7 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <img src="../expofer/img/paginaProductos/lupa.png" alt="buscar">
+                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
                                 <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
                                 <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
                             </div>
@@ -186,7 +186,7 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <img src="../expofer/img/paginaProductos/lupa.png" alt="buscar">
+                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
                                 <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
                                 <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
                             </div>
