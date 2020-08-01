@@ -61,17 +61,6 @@
                 </div>
             </div>
             <div class="card-carrusel">
-                <img src="../expofer/img/bujiaEstandar.png" class="" alt="bujia estandar">
-                <div class="">
-                    <h5 class="">BUJIA ESTANDAR</h5>
-                    <p class="card-carrusel-texto">Accesorios para motosierra</p>
-                    <div class="card-carrrusel-precio">
-                        <p class="card-carrousel-precio-signo">$</p>
-                        <p class="card-carrousel-precio-valor">40.000</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-carrusel">
                 <img src="../expofer/img/paginaProducto/boquilla.png" class="" alt="boquilla">
                 <div class="">
                     <h5 class="">BOQUILLA BARREDORA PARA SUELO</h5>

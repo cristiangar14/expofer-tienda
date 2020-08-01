@@ -59,7 +59,50 @@
                         </div> 
                         <div><a id="btnCarrito" class="header-barraSuperio-log-btn" href="" ><img class="iconHeader" src="img/carrito-de-compras.png" alt="icono-carrito">CARRITO (3)</a>
                             <div>
-
+                                <h5>PRODUCTOS EN TU CARRITO</h5>
+                                <div>
+                                    <div>
+                                        <img src="" alt="carrito-imagen-producto">
+                                        <div>
+                                            <h6></h6>
+                                            <select name="" id="">
+                                                <opttion>1</opttion>
+                                                <opttion>2</opttion>
+                                                <opttion>3</opttion>
+                                                <opttion>4</opttion>
+                                                <opttion>5</opttion>
+                                                <opttion>6</opttion>
+                                                <opttion>7</opttion>
+                                                <opttion>8</opttion>
+                                                <opttion>9</opttion>
+                                                <opttion>10</opttion>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <p></p>
+                                            <img src="" alt="borrar">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+                                    <div>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+                                    <div>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+                                    <div>
+                                        <p></p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <a href="#">IR AL CARRITO</a>
                             </div>
                         </div>
                     </div>
