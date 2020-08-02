@@ -12,31 +12,32 @@
             </li>
             <li id="slide2">
                 <div class="imagenes-producto-grande">
-                    <div id="descuentoCard" class="producto-sin-descuento descuento-slider">
+                    <div id="descuentoCard" class="producto-con-descuento descuento-slider">
                         <p class="valor-descuento">10%</p>
                         <p class="off-descuento">OFF</p>
                     </div>
-                    <img src="../expofer/img/paginaProducto/bolsa.png" alt="aspiradora">
+                    <img src="../expofer/img/paginaProducto/bolsa.png" alt="bolsa">
                 </div>
-            </li id="slide3">
+            </li>
+            <li id="slide3">
                 <div class="imagenes-producto-grande">
                     <div id="descuentoCard" class="producto-con-descuento descuento-slider">
                         <p class="valor-descuento">10%</p>
                         <p class="off-descuento">OFF</p>
                     </div>
-                    <img src="../expofer/img/paginaProducto/filtro.png" alt="aspiradora">
+                    <img src="../expofer/img/paginaProducto/filtro.png" alt="filtro">
                 </div>
             </li>
         </ul>
         <ul class="menu-slider">
             <li>
-            <a href="#slide1"><img  class="imagenes-producto-lateral" src="../expofer/img/paginaProducto/aspiradora.png" alt="aspiradora"></a>
+                <a href="#slide1"><img  class="imagenes-producto-lateral" src="../expofer/img/paginaProducto/aspiradora.png" alt="aspiradora"></a>
             </li>
             <li>
-            <a href="#slide2"><img  class="imagenes-producto-lateral" src="../expofer/img/paginaProducto/aspiradora.png" alt="aspiradora"></a>
+                <a href="#slide2"><img  class="imagenes-producto-lateral" src="../expofer/img/paginaProducto/aspiradora.png" alt="aspiradora"></a>
             </li>
             <li>
-            <a href="#slide3"><img  class="imagenes-producto-lateral" src="../expofer/img/paginaProducto/aspiradora.png" alt="aspiradora"></a>
+                <a href="#slide3"><img  class="imagenes-producto-lateral" src="../expofer/img/paginaProducto/aspiradora.png" alt="aspiradora"></a>
             </li>
             <li>
                 <a href="#slide4"><img  class="imagenes-producto-lateral" src="../expofer/img/paginaProducto/aspiradora.png" alt="aspiradora"></a>

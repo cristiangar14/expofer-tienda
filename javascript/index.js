@@ -22,6 +22,30 @@ login.addEventListener('mouseout', function (){
     login.className = ('login-cerrado');
 })
 
+
+//carrito
+let btnCarrito = document.getElementById('btnCarrito');
+let contenedorCarrito = document.getElementById('carritoActivo');
+
+let carritoActivo = 'btn-carrito-activo';
+let carritoInActivo = 'btn-carrito-inactivo';
+
+let contadorCarrito = 0;
+
+btnCarrito.addEventListener('click', function(){
+    if(contadorCarrito ==0){
+        contenedorCarrito.className = (carritoActivo);
+        contadorCarrito = 1;
+
+    }else{
+        contenedorCarrito.classList.remove(carritoActivo);
+        contenedorCarrito.className = (carritoInActivo);
+        contadorCarrito = 0;
+    }
+})
+
+
+
 //nav
 
 let btnInicio = document.getElementById('btnInicio');
@@ -54,6 +78,3 @@ const textoBuscador = document.getElementById('searchInput').value;
 console.log(textoBuscador);
 })
 
-//categorias
-
-//fondo categorias

@@ -57,56 +57,98 @@
                                 </form>
                             </div>
                         </div> 
-                        <div><a id="btnCarrito" class="header-barraSuperio-log-btn" href="" ><img class="iconHeader" src="img/carrito-de-compras.png" alt="icono-carrito">CARRITO (3)</a>
-                            <div>
+                        <div><button id="btnCarrito" class="header-barraSuperio-log-btn"><img class="iconHeader" src="img/carrito-de-compras.png" alt="icono-carrito">CARRITO (3)</button>
+                            <div id="carritoActivo" class="btn-carrito-inactivo">
                                 <h5>PRODUCTOS EN TU CARRITO</h5>
-                                <div>
-                                    <div>
-                                        <img src="" alt="carrito-imagen-producto">
-                                        <div>
-                                            <h6></h6>
+                                    <div class="producto-en-carrito">
+                                        <img class="producto-en-carrito-imagen" src="./img/paginaProducto/aspiradora2.png" alt="carrito-imagen-producto">
+                                        <div class="producto-en-carrito-producto" >
+                                            <h6>ASPIRADORA KARCHER WD1</h6>
                                             <select name="" id="">
-                                                <opttion>1</opttion>
-                                                <opttion>2</opttion>
-                                                <opttion>3</opttion>
-                                                <opttion>4</opttion>
-                                                <opttion>5</opttion>
-                                                <opttion>6</opttion>
-                                                <opttion>7</opttion>
-                                                <opttion>8</opttion>
-                                                <opttion>9</opttion>
-                                                <opttion>10</opttion>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
                                             </select>
                                         </div>
-                                        <div>
-                                            <p></p>
-                                            <img src="" alt="borrar">
+                                        <div class="producto-en-carrito-valor" >
+                                            <p>600,000</p>
+                                            <img src="./img/basura.png" alt="borrar">
                                         </div>
                                     </div>
+                                    <div class="producto-en-carrito">
+                                        <img class="producto-en-carrito-imagen" src="./img/paginaProducto/aspiradora2.png" alt="carrito-imagen-producto">
+                                        <div class="producto-en-carrito-producto" >
+                                            <h6>ASPIRADORA KARCHER WD1</h6>
+                                            <select name="" id="">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                        </div>
+                                        <div class="producto-en-carrito-valor" >
+                                            <p>600,000</p>
+                                            <img src="./img/basura.png" alt="borrar">
+                                        </div>
+                                    </div>
+                                    <div class="producto-en-carrito">
+                                        <img class="producto-en-carrito-imagen" src="./img/paginaProducto/aspiradora2.png" alt="carrito-imagen-producto">
+                                        <div class="producto-en-carrito-producto" >
+                                            <h6>ASPIRADORA KARCHER WD1</h6>
+                                            <select name="" id="">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                        </div>
+                                        <div class="producto-en-carrito-valor" >
+                                            <p>600,000</p>
+                                            <img src="./img/basura.png" alt="borrar">
+                                        </div>
+                                    </div>
+                                <div class="carrito-activo-resumen">
+                                    <div class="carrito-activo-resumen-item">
+                                        <p>ENVIO</p>
+                                        <p>$598</p>
+                                    </div>
+                                    <div class="carrito-activo-resumen-item">
+                                        <p>IMPUESTO</p>
+                                        <p>$199</p>
+                                    </div>
+                                    <div class="carrito-activo-resumen-item">
+                                        <p>COMPRA</p>
+                                        <p>$139</p>
+                                    </div>
+                                    <div class="carrito-activo-resumen-item carrito-activo-resumen-total">
+                                        <p>TOTAL</p>
+                                        <p>$1,150,000</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <div>
-                                        <p></p>
-                                        <p></p>
-                                    </div>
-                                    <div>
-                                        <p></p>
-                                        <p></p>
-                                    </div>
-                                    <div>
-                                        <p></p>
-                                        <p></p>
-                                    </div>
-                                    <div>
-                                        <p></p>
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <a href="#">IR AL CARRITO</a>
+                                <a class="btn-irACarrito" href="carrito.php">IR AL CARRITO</a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
         <div class="header-barraInferio">
