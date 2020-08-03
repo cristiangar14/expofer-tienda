@@ -30,6 +30,8 @@
                 <p>$998</p>
             </div> 
         </div>
-        <a class="btn-continuarConLacompra" href="carrito.php">CONTINUAR CON LA COMPRA</a>
+        <div class="btn-continuarConLacompra">
+            <a class="" href="comprarComoInvitado.php">CONTINUAR CON LA COMPRA</a>
+        </div>
     </div>
 </section>

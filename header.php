@@ -17,6 +17,9 @@
     <!--flexslider-->
     <link rel = "stylesheet" href = "./style/flexslider.css" type = "text / css">
 
+    <!--font awesome-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" crossorigin="anonymous"></script>
+
 
     <!-- Custom Style -->
     <link rel="stylesheet" href="./style/normalize.css">
@@ -29,15 +32,16 @@
     <header class="header">
         <div class="header-barraSuperio">
             <div class="header-barraSuperio-social">
-                <img class="iconHeader" src="img/facebook.png" alt="facebook">
-                <img class="iconHeader" src="img/instagram.png" alt="instagram">
-                <img class="iconHeader" src="img/whatsapp.png" alt="whatsapp">
+                <button class="iconHeader"><span class="fab fa-facebook-f"></span></button>
+                <button class="iconHeader"><span class="fab fa-instagram"></span></button>
+                <button class="iconHeader"><span class="fab fa-youtube"></span></button>
+                <button class="iconHeader"><span class="fab fa-whatsapp"></span></button>
             </div>
             
             <div class="header-barraSuperio-log">
                 <div class="">
                     <div class="header-barraSuperio-log-elemento"> 
-                        <div class="header-barraSuperio-log-btn"><button id="btnLogin"><img class="iconHeader" src="img/usuario.png" alt="icono-persona">INGRESAR</button>
+                        <div class="header-barraSuperio-log-btn"><button id="btnLogin"><span class="iconHeader iconLogin far fa-user"></span> INGRESAR</button>
                             <div id="login" class="login-cerrado">
                                 <form class="contendor-form-login" action="">
                                     <h5>MI CUENTA</h5>
@@ -57,7 +61,7 @@
                                 </form>
                             </div>
                         </div> 
-                        <div><button id="btnCarrito" class="header-barraSuperio-log-btn"><img class="iconHeader" src="img/carrito-de-compras.png" alt="icono-carrito">CARRITO (3)</button>
+                        <div class="header-barraSuperio-log-btn"><button id="btnCarrito"><span class="iconHeader iconLogin fas fa-cart-plus"></span>CARRITO (3)</button>
                             <div id="carritoActivo" class="btn-carrito-inactivo">
                                 <h5>PRODUCTOS EN TU CARRITO</h5>
                                     <div class="producto-en-carrito">
