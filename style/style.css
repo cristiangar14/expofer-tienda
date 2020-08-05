@@ -299,13 +299,13 @@ a {
     display: none;    
 }
 
-.nav{
+.nav-header{
     width: 60%;
     min-width: 622px;
     padding: 10px 0px;
 }
 
-.nav .contenedor-nav {
+.nav-header .contenedor-nav {
     width: 100%;
     margin: 0;
     display: flex;
@@ -314,12 +314,12 @@ a {
 
 }
 
-.nav .contenedor-nav li {
+.nav-header .contenedor-nav li {
     display: inline-block;
     margin: 0px 5px;
 }
 
-.nav a {
+.nav-header a {
     color: #505A5A;
 }
 
@@ -1442,7 +1442,13 @@ ul.slider li:target {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 2px;
-    
+}
+.titulo-descripcion a{
+    color: #2D3A4B;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
 }
 
 .contenedor-descripcion{
@@ -2510,7 +2516,7 @@ ul.slider li:target {
         flex-wrap: wrap;
     }
 
-    .nav {
+    .nav-header {
         display: none;
     }
 
@@ -2539,7 +2545,7 @@ ul.slider li:target {
         cursor: pointer;
     }
 
-    .nav li {
+    .nav-header li {
         list-style: none;
     }
 
@@ -2741,6 +2747,10 @@ ul.slider li:target {
     .seccion-vistaProductos{
         flex-wrap: wrap;
     }
+
+    .vistaProductos-productos{
+        padding: 20px;
+    }
     .vistaProductos-container{
         width: 100vw;
     }
@@ -2752,8 +2762,70 @@ ul.slider li:target {
         width: 100%;
     }
 
-    /*--------------------------------producto (singular)*/
+    /*--------------------------------producto (singular)----------------------*/
+    /*presnetacion producto imagenes y cuadro de agregar a carrito*/
+    .Seccion-presentacionProducto{
+        height: 100%;
+        flex-wrap: wrap;
+    }    
+
+
+
+    /*----------- nav caracteristicas------*/
+    .nav{
+      min-width: 100%;  
+    }
+    .titulo-descripcion{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .titulo-descripcion .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+        background-color: #dee2e6;
+        width: 100%;
+    }
     
+    .contenedor-descripcion{
+        padding: 10px;
+    }
+    .contenedor-descripcion ul{
+        margin-top: 15px;
+        width: 100%;
+    }
+    .contenedor-descripcion-parrafo{
+        width: 100%;
+    }
+    .contenedor-caracteristicas{
+        padding: 10px;
+        width: 100%;
+    }
+    .contenedor-caracteristicas ul{
+        padding: 10px;
+        width: 100%;
+    }
+    .contenedor-caracteristicas ul li{
+        margin: 10px;
+        width: 90%;
+    }
+    .contenedor-accesorios{
+        padding: 10px;
+        width: 90%;
+    }
+    .contenedor-accesorios ul {
+        width: 100%;
+    }
+    .contenedor-accesorios ul li{
+        margin: 5px;
+        width: 100%;
+    }
+    .contenedor-descargables{
+        width: 90%;
+        padding: 0px;
+    }
+    /*------complementa tu compra---------*/
+    .seccion-complementa{
+        padding: 10px;
+    }
 
     /*tabla-carrito*/
     .productosEnCarrito{
@@ -3011,5 +3083,6 @@ ul.slider li:target {
     .contactenos-formularioYDatos{
         margin-bottom: 50px;
     }
+
 }
 

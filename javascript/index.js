@@ -76,7 +76,7 @@ btnMenu.addEventListener('click', function(){
         contadorMenu = 1;
     }else{
         menu.classList.remove('nav-responsive-abierto');
-        menu.className = ('nav')
+        menu.className = ('nav-header')
         contadorMenu = 0;
         console.log(contadorMenu)
     }

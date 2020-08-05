@@ -1,11 +1,11 @@
 <section class="producto-caracteristicas">
-    <nav>
-    <div class="nav nav-tabs titulo-descripcion" id="nav-tab" role="tablist">
-        <a class="nav-item nav-link active" id="nav-descripcion-tab" data-toggle="tab" href="#nav-descripcion" role="tab" aria-controls="nav-descripcion" aria-selected="true">DESCRIPCIÓN</a>
-        <a class="nav-item nav-link" id="nav-caracteristicas-tab" data-toggle="tab" href="#nav-caracteristicas" role="tab" aria-controls="nav-caracteristicas" aria-selected="false">CARACTERISTICAS</a>
-        <a class="nav-item nav-link" id="nav-accesorios-tab" data-toggle="tab" href="#nav-accesorios" role="tab" aria-controls="nav-accesorios" aria-selected="false">ACCESORIOS</a>
-        <a class="nav-item nav-link" id="nav-descargables-tab" data-toggle="tab" href="#nav-descargables" role="tab" aria-controls="nav-descargables" aria-selected="false">DESCARGABLES</a>
-    </div>
+    <nav class="nav-descripcion">
+        <div class="nav nav-tabs titulo-descripcion" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-descripcion-tab" data-toggle="tab" href="#nav-descripcion" role="tab" aria-controls="nav-descripcion" aria-selected="true">DESCRIPCIÓN</a>
+            <a class="nav-item nav-link" id="nav-caracteristicas-tab" data-toggle="tab" href="#nav-caracteristicas" role="tab" aria-controls="nav-caracteristicas" aria-selected="false">CARACTERISTICAS</a>
+            <a class="nav-item nav-link" id="nav-accesorios-tab" data-toggle="tab" href="#nav-accesorios" role="tab" aria-controls="nav-accesorios" aria-selected="false">ACCESORIOS</a>
+            <a class="nav-item nav-link" id="nav-descargables-tab" data-toggle="tab" href="#nav-descargables" role="tab" aria-controls="nav-descargables" aria-selected="false">DESCARGABLES</a>
+        </div>
     </nav>
         <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="nav-descripcion" role="tabpanel" aria-labelledby="nav-descripcion-tab">

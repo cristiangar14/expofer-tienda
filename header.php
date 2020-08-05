@@ -163,7 +163,7 @@
             <div id="btnMenu" class="menu-icon">
                 <span  class="menu-icon fas fa-bars"></span>
             </div>
-            <nav id="nav" class="nav">
+            <nav id="nav" class="nav-header">
                 <ul id="contenedorNav" class="contenedor-nav">
                     <li id="btnInicio" class="link-nav">
                         <a class="" href="index.php"><strong>INICIO</strong></a>
