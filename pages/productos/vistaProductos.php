@@ -10,9 +10,9 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
-                                <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
-                                <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
+                                <a href="./producto.php"><span class="fas fa-search-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="fas fa-cart-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="far fa-heart productos-hover-icon"><span></a>
                             </div>
                         </div>
                         <img src="../expofer/img/paginaProductos/chair.png" class="card-imagen" alt="chair">
@@ -32,9 +32,9 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                            <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
-                                <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
-                                <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
+                                <a href="./producto.php"><span class="fas fa-search-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="fas fa-cart-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="far fa-heart productos-hover-icon"><span></a>
                             </div>
                         </div>
                         <img src="../expofer/img/paginaProductos/stool.png" class="card-imagen" alt="stool">
@@ -54,9 +54,9 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
-                                <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
-                                <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
+                                <a href="./producto.php"><span class="fas fa-search-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="fas fa-cart-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="far fa-heart productos-hover-icon"><span></a>
                             </div>
                         </div>
                         <img src="../expofer/img/paginaProductos/woodspoon.png" class="card-imagen" alt="woods poon">
@@ -76,9 +76,9 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
-                                <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
-                                <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
+                                <a href="./producto.php"><span class="fas fa-search-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="fas fa-cart-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="far fa-heart productos-hover-icon"><span></a>
                             </div>
                         </div>
                         <img src="../expofer/img/paginaProductos/tabcover.png" class="card-imagen" alt="tab cover">
@@ -98,9 +98,9 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
-                                <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
-                                <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
+                                <a href="./producto.php"><span class="fas fa-search-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="fas fa-cart-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="far fa-heart productos-hover-icon"><span></a>
                             </div>
                         </div>
                         <img src="../expofer/img/paginaProductos/graybag.png" class="card-imagen" alt="chair">
@@ -120,9 +120,9 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
-                                <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
-                                <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
+                                <a href="./producto.php"><span class="fas fa-search-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="fas fa-cart-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="far fa-heart productos-hover-icon"><span></a>
                             </div>
                         </div>
                         <img src="../expofer/img/paginaProductos/sierra.png" class="card-imagen" alt="sierra">
@@ -142,9 +142,9 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
-                                <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
-                                <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
+                                <a href="./producto.php"><span class="fas fa-search-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="fas fa-cart-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="far fa-heart productos-hover-icon"><span></a>
                             </div>
                         </div>
                         <img src="../expofer/img/paginaProductos/stool.png" class="card-imagen" alt="stool">
@@ -164,9 +164,9 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
-                                <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
-                                <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
+                                <a href="./producto.php"><span class="fas fa-search-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="fas fa-cart-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="far fa-heart productos-hover-icon"><span></a>
                             </div>
                         </div>
                         <img src="../expofer/img/paginaProductos/sierra.png" class="card-imagen" alt="sierra">
@@ -186,9 +186,9 @@
                         </div>
                         <div class="card-productos-hover">
                             <div class="card-productos-hover-iconos" >
-                                <a href="./producto.php"><img src="../expofer/img/paginaProductos/lupa.png" alt="buscar"></a>
-                                <img src="../expofer/img/paginaProductos/carrito.png" alt="carrito">
-                                <img src="../expofer/img/paginaProductos/corazon.png" alt="corazon">
+                                <a href="./producto.php"><span class="fas fa-search-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="fas fa-cart-plus productos-hover-icon"><span></a>
+                                <a href="#"><span class="far fa-heart productos-hover-icon"><span></a>
                             </div>
                         </div>
                         <img src="../expofer/img/paginaProductos/tabcover.png" class="card-imagen" alt="tab cover">

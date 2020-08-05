@@ -44,7 +44,7 @@
                         <p class="item-valor">180.000</p>
                     </div>
                 </td>
-                <td><img src="../expofer/img/basura.png" alt="borrar"></td>
+                <td><button class="btnBorrar"><span class="far fa-trash-alt"></span></button></td>
             </tr>
             <tr class="tabla-item">
                 <td><img class="imagen-producto-tabla" src="../expofer/img/bidon.png" alt="producto"></td>
@@ -78,7 +78,7 @@
                         <p class="item-valor">180.000</p>
                     </div>
                 </td>
-                <td><img src="../expofer/img/basura.png" alt="borrar"></td>
+                <td><button class="btnBorrar"><span class="far fa-trash-alt"></span></button></td>
             </tr>
             <tr class="tabla-item">
                 <td><img class="imagen-producto-tabla" src="../expofer/img/bidon.png" alt="producto"></td>
@@ -112,7 +112,7 @@
                         <p class="item-valor">180.000</p>
                     </div>
                 </td>
-                <td><img src="../expofer/img/basura.png" alt="borrar"></td>
+                <td><button class="btnBorrar"><span class="far fa-trash-alt"></span></button></td>
             </tr>
         </table>
     </div>

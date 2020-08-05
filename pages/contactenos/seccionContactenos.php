@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <div class="contacto contactenos-contacto">
-                        <img class="logo-contacto contactenos-logo" src="./img/teléfono.png" alt="telefono">
+                        <span class="contactenos-logo fas fa-phone-alt"></span>
                         <div>
                             <p class="">(57) 1 466 03 07</p>
                             <p class="">(57) 1 466 13 62</p>
@@ -50,15 +50,15 @@
                         </div>  
                     </div>
                     <div class="contacto contactenos-contacto">
-                        <img class="logo-contacto contactenos-logo" src="./img/correo-electrónico.png" alt="logo-email">
+                        <span class="contactenos-logo fas fa-envelope-open-text"></span>
                         <p class="">comercial@expofer.co</p>
                     </div>
                 </div>
-                <div class="redes-sociales contactenos-redesSociales">
-                    <img class="" src="./img/facebook.png" alt="facebook">
-                    <img class="" src="./img/instagram.png" alt="instagram">
-                    <img class="" src="./img/youtube.png" alt="youtube">
-                    <img class="" src="./img/whatsapp.png" alt="whatsapp">
+                <div class="contactenos-redesSociales">
+                    <a class="contactenos-logo-redes"><span class="fab fa-facebook-f"></span></a>
+                    <a class="contactenos-logo-redes"><span class="fab fa-instagram"></span></a>
+                    <a class="contactenos-logo-redes"><span class="fab fa-youtube"></span></a>
+                    <a class="contactenos-logo-redes"><span class="fab fa-whatsapp"></span></a>
                 </div>
                 <p class="contactenos-parrafo">
                     Contáctenos y estaremos felices de atenderlo, somos especialistas en los productos que ofrecemos y haremos lo necesario para darle nuestro mejor servicio.

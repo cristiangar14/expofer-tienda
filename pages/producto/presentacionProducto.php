@@ -87,7 +87,5 @@
             <P>Realizamos despachos a nivel nacional. Las entregas se realizan en los siguientes 7 días hábiles, después de hacer el check out y pago de la compra.</P>
         </div>
     </div>
-
-
 </section>
 

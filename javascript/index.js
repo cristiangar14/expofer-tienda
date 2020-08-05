@@ -1,8 +1,3 @@
-window.addEventListener('onload', ()=>{
-    console.log('cargada')
-})
-
-
 //login
 let btnlogin = document.getElementById('btnLogin');
 let login = document.getElementById('login');
@@ -69,6 +64,25 @@ navMenu.addEventListener('mouseout', function(){
 
 })
 
+//nav responsive
+
+let btnMenu = document.getElementById('btnMenu');
+let menu = document.getElementById('nav');
+let contadorMenu=0;
+
+btnMenu.addEventListener('click', function(){
+    if(contadorMenu == 0){
+        menu.className = ('nav-responsive-abierto');
+        contadorMenu = 1;
+    }else{
+        menu.classList.remove('nav-responsive-abierto');
+        menu.className = ('nav')
+        contadorMenu = 0;
+        console.log(contadorMenu)
+    }
+
+})
+
 
 //leer el texto del input buscar
 document.getElementById('buscarBtn').addEventListener('click', (e) =>{
@@ -77,4 +91,7 @@ document.getElementById('buscarBtn').addEventListener('click', (e) =>{
 const textoBuscador = document.getElementById('searchInput').value;
 console.log(textoBuscador);
 })
+
+
+
 

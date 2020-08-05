@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -13,6 +13,7 @@
     <!-- Library -->
     <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
+    
 
     <!--flexslider-->
     <link rel = "stylesheet" href = "./style/flexslider.css" type = "text / css">
@@ -32,10 +33,10 @@
     <header class="header">
         <div class="header-barraSuperio">
             <div class="header-barraSuperio-social">
-                <button class="iconHeader"><span class="fab fa-facebook-f"></span></button>
-                <button class="iconHeader"><span class="fab fa-instagram"></span></button>
-                <button class="iconHeader"><span class="fab fa-youtube"></span></button>
-                <button class="iconHeader"><span class="fab fa-whatsapp"></span></button>
+                <a href="#" class="iconHeader"><span class="fab fa-facebook-f"></span></a>
+                <a href="#" class="iconHeader"><span class="fab fa-instagram"></span></a>
+                <a href="#" class="iconHeader"><span class="fab fa-youtube"></span></a>
+                <a href="#" class="iconHeader"><span class="fab fa-whatsapp"></span></a>
             </div>
             
             <div class="header-barraSuperio-log">
@@ -83,7 +84,7 @@
                                         </div>
                                         <div class="producto-en-carrito-valor" >
                                             <p>600,000</p>
-                                            <img src="./img/basura.png" alt="borrar">
+                                            <button class="btnBorrar"><span class="far fa-trash-alt"></span></button>
                                         </div>
                                     </div>
                                     <div class="producto-en-carrito">
@@ -105,7 +106,7 @@
                                         </div>
                                         <div class="producto-en-carrito-valor" >
                                             <p>600,000</p>
-                                            <img src="./img/basura.png" alt="borrar">
+                                            <button class="btnBorrar"><span class="far fa-trash-alt"></span></button>
                                         </div>
                                     </div>
                                     <div class="producto-en-carrito">
@@ -127,7 +128,7 @@
                                         </div>
                                         <div class="producto-en-carrito-valor" >
                                             <p>600,000</p>
-                                            <img src="./img/basura.png" alt="borrar">
+                                            <button class="btnBorrar"><span class="far fa-trash-alt"></span></button>
                                         </div>
                                     </div>
                                 <div class="carrito-activo-resumen">
@@ -157,82 +158,86 @@
         </div>
         <div class="header-barraInferio">
             <div>
-                <img src="img/logo.png" alt="logo Expofer">
+                <img class="logo-expofer" src="img/logo.png" alt="logo Expofer">
             </div>
-            <img class="menu-icon" src="./img/menu.png" alt="menu">
-            <ul id="contenedorNav" class="nav">
-                <li id="btnInicio" class="link-nav">
-                    <a class="" href="index.php"><strong>INICIO</strong></a>
-                </li>
-                <li id="btnProductos" class="link-nav">
-                    <a class="" href="productos.php"><strong>PRODUCTOS</strong></a>
-                </li>
-                <li id="btnServicioTecnico" class="link-nav">
-                    <a class="" href="#"><strong>SERVICIO TÉCNICO</strong></a>
-                </li>
-                <li id="btnNosotros" class="link-nav">
-                    <a class="link-nav" href="#"><strong>NOSOTROS</strong></a>
-                </li>
-                <li id="btnAccesorios" class="link-nav">
-                    <a class="" href="#"><strong>ACCESORIOS</strong></a>
-                </li>
-                <div id="navMenu" class="nav-inactivo">
-                    <div class="contenedor-nav-activo">
-                        <div class="contenedor-nav-activo-primera">
-                            <h5 class="link-nav-activo">PRODUCTOS</h5>
-                            <div class="contenedor-nav-activo-primera-lista">
-                                <ul><h6>CATEGORIAS</h6>
-                                    <li><a href="/">Hidrolavadoras</a></li>
-                                    <li><a href="">Compresores</a></li>
-                                    <li><a href="">Bombas</a></li>
-                                    <li><a href="">Plantas eléctricas</a></li>
-                                    <li><a href="">Aspiradoras</a></li>
-                                    <li><a href="">Guadañadoras</a></li>
-                                    <li><a href="">Motosierras</a></li>
-                                    <li><a href="">Cortasetos</a></li>
-                                    <li><a href="">Fumigadoras</a></li>
-                                    <li><a href="">Sopladora</a></li>
-                                    <li><a href="">Cortasesped</a></li>
-                                    <li><a href="">Teractores</a></li>
-                                    <li><a href="">Limpiadores a vapor</a></li>
-                                </ul>
+            <div id="btnMenu" class="menu-icon">
+                <span  class="menu-icon fas fa-bars"></span>
+            </div>
+            <nav id="nav" class="nav">
+                <ul id="contenedorNav" class="contenedor-nav">
+                    <li id="btnInicio" class="link-nav">
+                        <a class="" href="index.php"><strong>INICIO</strong></a>
+                    </li>
+                    <li id="btnProductos" class="link-nav">
+                        <a class="" href="productos.php"><strong>PRODUCTOS</strong></a>
+                    </li>
+                    <li id="btnServicioTecnico" class="link-nav">
+                        <a class="" href="servicioTenico.php"><strong>SERVICIO TÉCNICO</strong></a>
+                    </li>
+                    <li id="btnNosotros" class="link-nav">
+                        <a class="link-nav" href="nosotros.php"><strong>NOSOTROS</strong></a>
+                    </li>
+                    <li id="btnAccesorios" class="link-nav">
+                        <a class="" href="#"><strong>ACCESORIOS</strong></a>
+                    </li>
+                    <div id="navMenu" class="nav-inactivo">
+                        <div class="contenedor-nav-activo">
+                            <div class="contenedor-nav-activo-primera">
+                                <h5 class="link-nav-activo">PRODUCTOS</h5>
+                                <div class="contenedor-nav-activo-primera-lista">
+                                    <ul><h6>CATEGORIAS</h6>
+                                        <li><a href="/">Hidrolavadoras</a></li>
+                                        <li><a href="">Compresores</a></li>
+                                        <li><a href="">Bombas</a></li>
+                                        <li><a href="">Plantas eléctricas</a></li>
+                                        <li><a href="">Aspiradoras</a></li>
+                                        <li><a href="">Guadañadoras</a></li>
+                                        <li><a href="">Motosierras</a></li>
+                                        <li><a href="">Cortasetos</a></li>
+                                        <li><a href="">Fumigadoras</a></li>
+                                        <li><a href="">Sopladora</a></li>
+                                        <li><a href="">Cortasesped</a></li>
+                                        <li><a href="">Teractores</a></li>
+                                        <li><a href="">Limpiadores a vapor</a></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="contenedor-nav-activo-segunda">
-                            <h6>PRODUCTOS DESTACADOS</h6>
-                            <div class="menu-cards">
-                                <div class="menu-card">
-                                    <img class="imagen-menu-abierto" src="./img/bidon.png" alt="Prducto Bidon">
-                                    <h6>BIDON</h6>
-                                    <p>Accesorios para Motosierras </p>
-                                    <div class="card-precio">
-                                        <p class="signo-pesos">$</p>
-                                        <p class="menu-card-valor">230.000</p>
+                            <div class="contenedor-nav-activo-segunda">
+                                <h6>PRODUCTOS DESTACADOS</h6>
+                                <div class="menu-cards">
+                                    <div class="menu-card">
+                                        <img class="imagen-menu-abierto" src="./img/bidon.png" alt="Prducto Bidon">
+                                        <h6>BIDON</h6>
+                                        <p>Accesorios para Motosierras </p>
+                                        <div class="card-precio">
+                                            <p class="signo-pesos">$</p>
+                                            <p class="menu-card-valor">230.000</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="menu-card">
-                                    <img class="imagen-menu-abierto" src="./img/bidon.png" alt="bidon">
-                                    <h6>BIDON</h6>
-                                    <p>Accesorios para Motosierras </p>
-                                    <div class="card-precio">
-                                        <p class="signo-pesos">$</p>
-                                        <p class="menu-card-valor">230.000</p>
+                                    <div class="menu-card">
+                                        <img class="imagen-menu-abierto" src="./img/bidon.png" alt="bidon">
+                                        <h6>BIDON</h6>
+                                        <p>Accesorios para Motosierras </p>
+                                        <div class="card-precio">
+                                            <p class="signo-pesos">$</p>
+                                            <p class="menu-card-valor">230.000</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="menu-card">
-                                    <img class="imagen-menu-abierto" src="./img/bidon.png" alt="bidon">
-                                    <h6>BIDON</h6>
-                                    <p>Accesorios para Motosierras </p>
-                                    <div class="card-precio">
-                                        <p class="signo-pesos">$</p>
-                                        <p class="menu-card-valor">230.000</p>
+                                    <div class="menu-card">
+                                        <img class="imagen-menu-abierto" src="./img/bidon.png" alt="bidon">
+                                        <h6>BIDON</h6>
+                                        <p>Accesorios para Motosierras </p>
+                                        <div class="card-precio">
+                                            <p class="signo-pesos">$</p>
+                                            <p class="menu-card-valor">230.000</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </ul>
+                </ul>
+            </nav>
             <form action="#" id="search" class="search">
                 <input id="searchInput" type="text" class="search-input" label="search" placeholder="Buscar">
                 <button id="buscarBtn" type="submit" class="search-btn"><img src="img/buscar.png" alt="buscar"></button>

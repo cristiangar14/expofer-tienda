@@ -37,7 +37,7 @@
                         </div>                                      
                 </div>
                 <div class="contenedor-footer-section-element tercer-elemento">
-                    <h5 class="footer-titulos">CONTACTENOS</h5>
+                    <h5><a href="contactenos.php" class="footer-titulos titulo-contactenos">CONTACTENOS</a></h5>
                     <div class="contenedor-contactenos" >
                         <div class="contactos">
                             <div class=" contacto ">
@@ -62,11 +62,11 @@
                                 <p class="">comercial@expofer.co</p>
                             </div>
                         </div>
-                        <div class="redes-sociales">
-                            <img class="" src="./img/facebook.png" alt="facebook">
-                            <img class="" src="./img/instagram.png" alt="instagram">
-                            <img class="" src="./img/youtube.png" alt="youtube">
-                            <img class="" src="./img/whatsapp.png" alt="whatsapp">
+                        <div class="header-barraSuperio-social social-footer">
+                            <a href="#" class="iconHeader"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#" class="iconHeader"><span class="fab fa-instagram"></span></a>
+                            <a href="#" class="iconHeader"><span class="fab fa-youtube"></span></a>
+                            <a href="#" class="iconHeader"><span class="fab fa-whatsapp"></span></a>
                         </div>
                     </div>
                 </div>
@@ -97,9 +97,11 @@
                     }
                 }       
             })
-            
     </script>
+
+    
     <script src="./javascript/index.js"></script>
+
 
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
