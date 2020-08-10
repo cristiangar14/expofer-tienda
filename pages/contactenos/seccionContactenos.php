@@ -27,8 +27,8 @@
                     <input id="FormularioNombres" type="text">
                 </div>
                 <div class="item-formulario item-formulario-contactenos mensaje-contactenos">
-                    <label for="FormularioNombres">MENSAJE</label>
-                    <input id="FormularioNombres" type="text">
+                    <label for="FormularioMensaje">MENSAJE</label>
+                    <input id="FormularioMensaje" type="text">
                 </div>
                 <button>ENVIAR</button>
             </form>

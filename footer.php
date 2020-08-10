@@ -37,7 +37,7 @@
                         </div>                                      
                 </div>
                 <div class="contenedor-footer-section-element tercer-elemento">
-                    <h5><a href="contactenos.php" class="footer-titulos titulo-contactenos">CONTACTENOS</a></h5>
+                    <h5 class="footer-titulos"><a href="contactenos.php" class="titulo-contactenos">CONTACTENOS</a></h5>
                     <div class="contenedor-contactenos" >
                         <div class="contactos">
                             <div class=" contacto ">

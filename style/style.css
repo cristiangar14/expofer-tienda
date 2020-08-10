@@ -921,6 +921,9 @@ ul {
     justify-content:center;
 }
 
+.titulo-contactenos{
+    color: #fff;
+}
 .contacto {
     font-size: 12px;
     display: flex;
@@ -2477,7 +2480,7 @@ ul.slider li:target {
 
 
 /*---------------------------------responsive----------------------------------*/
-@media (max-width: 480px) {
+@media (max-width: 800px) {
 
     body{
         max-width: 100vw;
@@ -2706,7 +2709,7 @@ ul.slider li:target {
         color: #ffff;
     }
     .contenedor-listas {
-        height: 50vh;
+        height: 30vh;
         max-height: 60vh;
         display: block;
     }
@@ -3084,5 +3087,13 @@ ul.slider li:target {
         margin-bottom: 50px;
     }
 
+}
+
+@media (min-width: 700px) and (max-width: 900px){
+    /*---------------home-----------------------*/
+    /*-----header---*/
+    .nav-responsive-abierto{
+        width: 90%;
+    }
 }
 
